@@ -1,3 +1,7 @@
+<!--meta
+Explanations and examples of Mithril's m.withAttr() method.
+-->
+
 # withAttr(attrName, callback)
 
 - [Description](#description)

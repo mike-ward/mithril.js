@@ -1,3 +1,7 @@
+<!--meta
+A simple setter/getter that is not strongly coupled to MithrilJS
+-->
+
 # prop(attrName, callback)
 
 - [Description](#description)

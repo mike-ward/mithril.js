@@ -1,3 +1,7 @@
+<!--meta
+How the XHR/AJAX utility m.request() works within Mithril.
+-->
+
 # request(options)
 
 - [Description](#description)

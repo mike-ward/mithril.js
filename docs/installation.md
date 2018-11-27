@@ -1,3 +1,7 @@
+<!--meta
+Various installation options for Mithril.js, from a CDN link to production Webpack setups.
+-->
+
 # Installation
 
 - [CDN](#cdn)

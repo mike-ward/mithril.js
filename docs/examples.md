@@ -1,3 +1,7 @@
+<!--meta
+Some examples how you can use mithril.
+-->
+
 # Examples
 
 Here are some examples of Mithril in action

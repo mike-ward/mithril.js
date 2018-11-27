@@ -1,3 +1,7 @@
+<!--meta
+How to turn a query string into an object using Mithril's built-in m.parseQueryString().
+-->
+
 # parseQueryString(string)
 
 - [Description](#description)

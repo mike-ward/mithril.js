@@ -1,3 +1,7 @@
+<!--meta
+Detailed documentation on using promises, for which Mithril includes a polyfill.
+-->
+
 # Promise(executor)
 
 - [Description](#description)

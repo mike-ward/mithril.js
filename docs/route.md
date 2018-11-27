@@ -1,3 +1,7 @@
+<!--meta
+Using and understanding Mithril's client-side router, m.route()
+-->
+
 # route(root, defaultRoute, routes)
 
 - [Description](#description)

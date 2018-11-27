@@ -1,3 +1,7 @@
+<!--meta
+Turns an object like {a: "1", b: "2"} into a string of form "a=1&b=2".
+-->
+
 # buildQueryString(object)
 
 - [Description](#description)

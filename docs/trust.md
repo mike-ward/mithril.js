@@ -1,3 +1,7 @@
+<!--meta
+An explanation of how (and when) to use m.trust(), a utility for unescaping HTML & SVG within Mithril.
+-->
+
 # trust(html)
 
 - [Description](#description)

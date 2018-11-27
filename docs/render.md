@@ -1,3 +1,7 @@
+<!--meta
+The function Mithril uses to efficiently turn virtual DOM into real DOM nodes.
+-->
+
 # render(element, vnodes)
 
 - [Description](#description)

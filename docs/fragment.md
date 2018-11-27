@@ -1,3 +1,7 @@
+<!--meta
+Allows attaching lifecycle methods and keys to a fragment vnode.
+-->
+
 # fragment(attrs, children)
 
 - [Description](#description)

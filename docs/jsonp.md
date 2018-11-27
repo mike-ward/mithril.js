@@ -1,3 +1,7 @@
+<!--meta
+Documentation and examples showing how to use Mithril's JSONP functionality.
+-->
+
 # jsonp(options)
 
 - [Description](#description)

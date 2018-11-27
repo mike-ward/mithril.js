@@ -1,3 +1,7 @@
+<!--meta
+Helpful info on using m.stream(), a reactive data structure provided optionally within Mithril.
+-->
+
 # stream()
 
 - [Description](#description)

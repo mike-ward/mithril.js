@@ -1,3 +1,7 @@
+<!--meta
+Detailed documentation about how to attach mithril components to certain DOM nodes using m.mount().
+-->
+
 # mount(root, component)
 
 - [Description](#description)

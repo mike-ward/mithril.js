@@ -1,3 +1,7 @@
+<!--meta
+How to use the "key" attribute in Mithril to link DOM nodes to specific pieces of data.
+-->
+
 # Keys
 
 - [What are keys](#what-are-keys)

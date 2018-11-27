@@ -1,3 +1,7 @@
+<!--meta
+Schedule a DOM update of your components using the m.redraw() method.
+-->
+
 # redraw()
 
 - [Description](#description)

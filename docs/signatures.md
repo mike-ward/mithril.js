@@ -1,3 +1,7 @@
+<!--meta
+Helpful information for reading the signatures in Mithril's documentation.
+-->
+
 # How to read signatures
 
 Signature sections typically look like this:
