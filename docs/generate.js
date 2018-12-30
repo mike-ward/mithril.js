@@ -4,8 +4,8 @@ var fs = require("fs")
 var path = require("path")
 var marked = require("marked")
 var layout = fs.readFileSync("./docs/layout.html", "utf-8")
-var rimraf = require('rimraf')
-var process = require('child_process')
+var rimraf = require("rimraf")
+var process = require("child_process")
 var version = JSON.parse(fs.readFileSync("./package.json", "utf-8")).version
 try {fs.mkdirSync("./dist")} catch (e) {/* ignore */}
 try {fs.mkdirSync("./dist/archive")} catch (e) {/* ignore */}
@@ -75,20 +75,20 @@ function generate(pathname) {
 }
 
 function getArchiveDirs() {
-	process.execSync('git checkout gh-pages -- archive')
-	var dirs = fs.readdirSync('./archive')
-	process.execSync('git reset -- archive')
-	rimraf.sync('./archive');
+	process.execSync("git checkout gh-pages -- archive")
+	var dirs = fs.readdirSync("./archive")
+	process.execSync("git reset -- archive")
+	rimraf.sync("./archive");
 
-	var ver = 'v' + version;
-	if (dirs.every(dir => ver !== dir)) dirs.push(ver);
+	var ver = "v" + version;
+	if (dirs.every((dir) => ver !== dir)) dirs.push(ver);
 	return dirs.reverse();
 }
 
 function archiveDocsSelect() {
 	var options = archiveDirs
-		.map(ad => `<option>${ad}</option>`)
-		.join('\n')
+		.map((ad) => `<option>${ad}</option>`)
+		.join("\n")
 
 	var select = `
 <select 
